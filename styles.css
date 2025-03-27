@@ -1,0 +1,29 @@
+#container {
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    gap: 10px; /* Espaço entre os elementos */
+    margin-top: 20px; /* Impede as barras de quebrarem para a linha de baixo */
+    
+}
+
+
+
+.progress-container
+{
+    appearance: none;
+    width: 150px;
+    height: 17px;
+    transform: rotate(270deg);
+    position: relative;
+    top: 75px;
+    left: 50px;
+    margin-right: 10px;
+}
+
+.botaostyle
+{
+    width: 110x;
+    height: 45px;
+    background-color: #84ef57;
+}
